@@ -1,22 +1,169 @@
 [
     {
         "id": "1",
-        "message_en": "Hello, World!",
-        "message_th": "ว่าไงพี่บ่าว",
+        "message_en": "Blood Donor Questionnaire For safety of donors and recipients of blood transfusion, please provide truthful answer to this questionnaire.<br> If you are not sure that your blood is safe, please refrain from donation.</br>",
+        "message_th": "แบบสอบถามสำหรับผู้บริจาคโลหิต เพื่อความปลอดภัยของท่านผู้บริจาคโลหิต และความปลอดภัยของผู้ป่วยที่จะรับโลหิตของท่าน โปรดตอบคำถามตามความเป็นจริง หากไม่มั่นใจว่าโลหิตของท่านปลอดเชื้อ กรุณางดบริจาคโลหิต",
         "audioPath_en": "/MessageSound/1.mp3",
         "audioPath_th": "/MessageSound/1.mp3"
     },
     {
         "id": "2",
-        "message_en": "How are you?",
-        "message_th": "ว่าไงพี่บ่าว",
+        "message_en": "1. feel well and healthy today",
+        "message_th": "1. รู้สึกสบายดี สุขภาพแข็งแรง พร้อมที่จะบริจาคโลหิต",
         "audioPath_en": "/MessageSound/2.mp3",
         "audioPath_th": "/MessageSound/1.mp3"
     },
     {
         "id": "3",
-        "message_en": "yooo",
-        "message_th": "ว่าไงพี่บ่าว",
+        "message_en": "2. sleep tight last night. (for at least 5 hours of sleep)",
+        "message_th": "2. นอนหลับพักผ่อนเพียงพอ (ไม่น้อยกว่า 5 ชั่วโมง)",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "4",
+        "message_en": "3. take fatty food within the past 6 hours",
+        "message_th": "3. รับประทานอาหารที่มีไขมันสูง ภายใน 6 ชั่วโมงที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "5",
+        "message_en": "4. have chronic disease or health problem. Please specify",
+        "message_th": "4. มีโรคประจำตัว หรือเคยเป็นโรค (โปรดระบุ)",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "6",
+        "message_en": "5. currently taking medication for an infection in the past 7 days ",
+        "message_th": "5. รับประทานยาปฏิชีวนะ (ยาฆ่าเชื้อ) ภายใน 7 วันที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "7",
+        "message_en": "6. taken aspirin, muscle relaxant, or pain killer in the past 48 hrs",
+        "message_th": "6. รับประทานยาแอสไพริน ยาคลายกล้ามเนื้อ ยาแก้ปวดข้อ หรือยาอื่นๆ ในกลุ่มเดียวกันภายใน 2 วันที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "8",
+        "message_en": "7. regularly take medications, herbal medicine, or supplement food. If yes, please specify",
+        "message_th": "7. ใช้ ยา หรือ สมุนไพร หรือ อาหารเสริม ",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "9",
+        "message_en": "8. have drunk alcohol within 24 hours.",
+        "message_th": "8. ดื่มแอลกอฮอล์ภายใน 24 ชั่วโมงที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "10",
+        "message_en": "9. have donated hematopoietic stem cells in the past 6 months",
+        "message_th": "9. เคยบริจาคเซลล์ต้นกำเนิดเม็ดโลหิตในระยะ 6 เดือนที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "11",
+        "message_en": "10. Have you ever been pregnant or abortion",
+        "message_th": "10. เคยตั้งครรภ์ หรือแท้งบุตร มาก่อน",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "12",
+        "message_en": "11. Are you currently pregnant or breast-feeding?",
+        "message_th": "11. อยู่ในช่วงตั้งครรภ์ หรือให้นมบุตร",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "13",
+        "message_en": "12. In the past 6 months, have you had given birth / abortion?",
+        "message_th": "12. คลอดบุตร หรือแท้งบุตร ภายใน 6 เดือนที่ผ่านมา.",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "14",
+        "message_en": "13. have sexual contact",
+        "message_th": "13. เพศวิถี (พฤติกรรมทางเพศ)  มีเพศสัมพันธ์กับเพศกำเนิดตรงข้าม  มีเพศสัมพันธ์กับเพศกำเนิดเดียวกัน  ไม่มีเพศสัมพันธ์ หรือ อื่น ๆ (โปรดระบุ)",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "15",
+        "message_en": "14. or your sex partner have sexual contact with anyone with the following characteristics? - having more than one sex partners - sex worker/anyone who has taken payment for sex - having used non-prescribed drugs - having had HIV or other sexual transmitted diseases",
+        "message_th": "14. ท่านหรือคู่ของท่านเคยมีเพศสัมพันธ์กับ: ผู้ที่ไม่ใช่คู่ของตน / ผู้ที่ทำงานบริการทางเพศ/ผู้เสพยาเสพติด / ผู้ที่อาจติดเชื้อเอชไอวีหรือโรคติดต่อทางเพศสัมพันธ์อื่น",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "16",
+        "message_en": "15. ever taken medication for treatment or prevention of HIV infection? (PrEP or PEP)",
+        "message_th": "15. เคยใช้ยารักษาหรือป้องกันการติดเชื้อเอชไอวี",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "17",
+        "message_en": "16. had any dental procedure including tooth filling, plaque removal in the past 3 days, or tooth extraction or root canal treatment in the past 7 days?",
+        "message_th": "16. อุดฟัน ขูดหินปูน ภายใน 3 วันที่ผ่านมา/ ถอนฟัน รักษารากฟัน ภายใน 7 วันที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "18",
+        "message_en": "17. had diarrhea in the past 7 days?",
+        "message_th": "17. ท้องเสีย ท้องร่วง ภายใน 7 วันที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "19",
+        "message_en": "18. had skin cosmetic procedures such as ear/body piercings, tattoo, and injection of various substances in the past 4 months?",
+        "message_th": "18. ทำหัตถการเสริมความงามผ่านผิวหนังทุกชนิด ได้แก่ เจาะหูสัก ลบสัก ฝังเข็ม ฉีดสารต่างๆ และอื่นๆ ภายใน 4 เดือนที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "20",
+        "message_en": "19. had any minor surgery in the past 7 days?",
+        "message_th": "19. ได้รับการผ่าตัดเล็ก ภายใน 7 วันที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "21",
+        "message_en": "20. had any major surgery in the past 6 months?",
+        "message_th": "20. ได้รับการผ่าตัดใหญ่ ภายใน 6 เดือนที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "22",
+        "message_en": "21. ever been sick and received any blood transfusion in the past 12 months?",
+        "message_th": "21. เจ็บป่วยและได้รับโลหิต หรือ ส่วนประกอบโลหิต ภายใน 1 ปีที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "23",
+        "message_en": "22. had a transplant such as organ, tissue, or stem cells? ",
+        "message_th": "22. เคยได้รับการปลูกถ่ายอวัยะ หรือเซลล์ต้นกำเนิดเม็ดโลหิต",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "24",
+        "message_en": "23. been stuck by bloody needle in the past 12 months?",
+        "message_th": "23. ถูกเข็มที่เปื้อนเลือดตำ ในระยะ 1 ปีที่ผ่านมา",
         "audioPath_en": "/MessageSound/3.mp3",
         "audioPath_th": "/MessageSound/1.mp3"
     }

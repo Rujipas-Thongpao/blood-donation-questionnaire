@@ -9,7 +9,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [currentMessageIndex, setCurrentMessageIndex] = useState<number>(-1);
   const messageContainerRef = useRef<HTMLDivElement>(null);
-  const [lang, setLang] = useState<'en' | 'th'>('en'); // Language state
+  const [lang, setLang] = useState<'en' | 'th'>('th'); // Language state
 
   useEffect(() => {
     setMessages(messageData as Message[]);
@@ -49,10 +49,13 @@ export default function Home() {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.pause();
-      audioRef.current.src = (lang === 'en' ?
-        messages[currentMessageIndex]?.audioPath_en :
-        messages[currentMessageIndex]?.audioPath_th
+      const audioPath = (lang === 'en' ?
+        '/MessageSound/' + messages[currentMessageIndex]?.id + '-en.mp3' :
+        '/MessageSound/' + messages[currentMessageIndex]?.id + '-th.mp3'
       ) || "";
+
+      console.log(audioPath)
+      audioRef.current.src = audioPath
       audioRef.current.load();
       audioRef.current.currentTime = 0;
       if (isPlaying) {
@@ -118,7 +121,8 @@ function MessageBox({ message, isActive, index, lang }: { message: Message; isAc
       id={`message-${index}`}
       className={`p-3 my-2 border rounded-lg ${isActive ? 'bg-blue-200 border-blue-500 font-bold' : 'bg-white border-gray-300'}`}
     >
-      <p>{lang === 'en' ? message.message_en : message.message_th}</p>
+      <p dangerouslySetInnerHTML={{ __html: lang === 'en' ? message.message_en : message.message_th }} />
+      {/* <p>{lang === 'en' ? message.message_en : message.message_th}</p> */}
     </div>
   );
 }

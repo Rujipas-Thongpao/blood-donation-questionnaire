@@ -1,17 +1,23 @@
 [
     {
         "id": "1",
-        "message": "Hello, World!",
-        "audioPath": "/MessageSound/1.mp3"
+        "message_en": "Hello, World!",
+        "message_th": "ว่าไงพี่บ่าว",
+        "audioPath_en": "/MessageSound/1.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
     },
     {
         "id": "2",
-        "message": "How are you?",
-        "audioPath": "/MessageSound/2.mp3"
+        "message_en": "How are you?",
+        "message_th": "ว่าไงพี่บ่าว",
+        "audioPath_en": "/MessageSound/2.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
     },
     {
         "id": "3",
-        "message": "yooo",
-        "audioPath": "/MessageSound/3.mp3"
+        "message_en": "yooo",
+        "message_th": "ว่าไงพี่บ่าว",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
     }
 ]

@@ -1,5 +1,7 @@
 export interface Message {
     id: string;
-    message: string;
-    audioPath: string;
+    message_th: string;
+    message_en: string;
+    audioPath_th: string;
+    audioPath_en: string;
 }

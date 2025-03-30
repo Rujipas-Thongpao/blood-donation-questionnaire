@@ -166,5 +166,110 @@
         "message_th": "23. ถูกเข็มที่เปื้อนเลือดตำ ในระยะ 1 ปีที่ผ่านมา",
         "audioPath_en": "/MessageSound/3.mp3",
         "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "25",
+        "message_en": "24. had hepatitis after age of 11 years?",
+        "message_th": "24. เคยป่วยเป็นโรคตับอักเสบ หลังอายุ11 ปี",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "26",
+        "message_en": "25. lived with a person who had hepatitis in the past 12 months? ",
+        "message_th": "25. คู่ของท่านหรือบุคคลในครอบครัวของท่าน เป็นโรคตับอักเสบ ในระยะเวลา 1 ปีที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "27",
+        "message_en": "26. ever been tested positive for hepatitis viruses?",
+        "message_th": "26. เคยตรวจพบว่าเป็นพาหะของโรคตับอักเสบ",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "28",
+        "message_en": "27. had malaria in the past 3 years?",
+        "message_th": "27. เคยป่วยเป็นโรคมาลาเรีย ในระยะ 3 ปีที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "29",
+        "message_en": "28. traveled to an area with malaria in the past 12 months? ",
+        "message_th": "28. เคยเข้าไปในพื้นที่มีเชื้อมาลาเรียชุกชุม ในระยะ 1 ปีที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "30",
+        "message_en": "29. had influenza, dengue, chikungunya, Zika or COVID-19 in the past 1 month? If yes, please specify",
+        "message_th": "29. เคยป่วยเป็นโรคไข้หวัดใหญ่ / โรคไข้เลือดออก/ โรคชิคุนกุนยา/ โรคไข้ซิกา/ โรคโควิด-19 ในระยะ 1 เดือนที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "31",
+        "message_en": "30. had any vaccination or other shots in the past 2 months? If yes, please specify",
+        "message_th": "30. ได้รับวัคซีนเพื่อป้องกันโรคในระยะ 2 เดือนที่ผ่านมา ระบุวัคซีน",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "32",
+        "message_en": "31. had any serum injection for passive immunization in the past 12 months?",
+        "message_th": "31. ได้รับเซรุ่ม ภายใน 1 ปี ที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "33",
+        "message_en": "32. ever been intravenous drug user (IVDU)? ",
+        "message_th": "32. เคยมีประวัติเสพยาเสพติด",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "34",
+        "message_en": "33. ever been imprisoned for more than 72 consecutive hours in the past 12 months?",
+        "message_th": "33. เคยถูกควบคุมตัวหรือจองจำในเรือนจำติดต่อกันเกิน 72 ชั่วโมง ในช่วง 1 ปีที่ผ่านมา",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "35",
+        "message_en": "34. had weight loss, fever, enlarged lymph node without apparent cause or ever tested positive for HIV/AIDS virus In the past 3 months?",
+        "message_th": "34. เคยมีน้ำหนักลด มีไข้ มีต่อมน้ำเหลืองโตโดยไม่ทราบสาเหตุ ในระยะ 3 เดือนที่ผ่านมา หรือเคยตรวจพบว่าติดเชื้อเอชไอวี",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "36",
+        "message_en": "35. From 1980 through 1996, did you spend time that adds up to 3 months or more in the United Kingdom countries of England, Northern Ireland, Scotland and Wales",
+        "message_th": "35. ช่วง พ.ศ. 2523 - 2539 ท่านเคยพำนักอาศัยอยู่ในประเทศเหล่านี้เป็นเวลาสะสมมากกว่า 3 เดือน: อังกฤษ ไอร์แลนด์เหนือ สก๊อตแลนด์ เวลส์",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "37",
+        "message_en": "36. From 1980 through 2001, did you spend time that adds up to 5 years or more in France or Ireland?",
+        "message_th": "36. ช่วง พ.ศ. 2523 – 2544 ท่านเคยพำนักอาศัยอยู่ในประเทศฝรั่งเศส และไอร์แลนด์ เป็นระยะเวลา สะสมมากกว่า 5 ปี",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "38",
+        "message_en": "37. Do you have any skin lesions or rashes on your body?",
+        "message_th": "37. ท่านมีแผลหรือผื่นบนร่างกายหรือไม่ (โปรดระบุ)",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
+    },
+    {
+        "id": "39",
+        "message_en": "38. Are you confident that your blood is safe for transfusion?",
+        "message_th": "38. ท่านมั่นใจว่าโลหิตของท่านมีความปลอดภัยต่อผู้ป่วย",
+        "audioPath_en": "/MessageSound/3.mp3",
+        "audioPath_th": "/MessageSound/1.mp3"
     }
 ]

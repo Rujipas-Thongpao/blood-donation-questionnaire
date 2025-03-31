@@ -2,6 +2,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Message } from '../app/components/Message'
 import messageData from '../../public/message.json';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -111,6 +112,7 @@ export default function Home() {
           {isPlaying ? "Pause" : "Play"}
         </button>
       </div>
+      <Analytics />
     </main>
   );
 }
